@@ -71,7 +71,7 @@ custom(){
   title="custom"
   extensions=()
   for i in "${!array[@]}"; do
-    if [ "$i" == "0" ]; then
+    if [ "$i" = "0" ]; then
       title="${array[i]}"
     else
       extensions+=("${array[$i]}")
