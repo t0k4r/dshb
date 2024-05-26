@@ -103,7 +103,7 @@ docsmusic(){
 custom "Documents & Music,mp3,mp4,ogg,opus,wav,flac,webm,docx,doc,odt,pdf,md"
 }
 
-while getopts ":r:o:c:xs:h" opt; do
+while getopts "r:o:c:xs:h" opt; do
   case ${opt} in
     r )
       root_folder="$OPTARG"
