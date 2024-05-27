@@ -10,7 +10,7 @@ html_out=""
 help_msg="dshb - directory search html browser
 usage: dshb ...(flags)
  dshb -o out.html
- dshb -c scripts,.sh,.py,.js -o scripts.html 
+ dshb -c scripts,sh,py,js -o scripts.html 
 flags:
  -h     help
  -r     root folder(default: $(pwd))
